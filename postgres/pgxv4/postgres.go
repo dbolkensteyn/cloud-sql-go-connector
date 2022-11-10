@@ -32,7 +32,7 @@ import (
 // configured with the provided options. The choice of name is entirely up to
 // the caller and may be used to distinguish between multiple registrations of
 // differently configured Dialers. The driver uses pgx/v4 internally.
-// RegisterDriver returns a cleanup function that should be called one the
+// RegisterDriver returns a cleanup function that should be called once the
 // database connection is no longer needed.
 func RegisterDriver(name string, opts ...cloudsqlconn.Option) (func() error, error) {
 	d, err := cloudsqlconn.NewDialer(context.Background(), opts...)
