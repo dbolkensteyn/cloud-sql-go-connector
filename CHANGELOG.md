@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/compare/v1.0.1...v1.1.0) (2022-11-10)
+
+
+### Features
+
+* improve refresh duration calculation ([#364](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/issues/364)) ([10b0bf7](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/commit/10b0bf7d9d3c69238df3d0a88ffab54f03f7d7a6))
+
+
+### Bug Fixes
+
+* handle context cancellations during instance refresh ([#372](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/issues/372)) ([cdb59c7](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/commit/cdb59c797968f46419673378c96e79d40da453dc)), closes [#370](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/issues/370)
+
 ## [1.0.1](https://github.com/GoogleCloudPlatform/cloud-sql-go-connector/compare/v1.0.0...v1.0.1) (2022-11-01)
 
 
